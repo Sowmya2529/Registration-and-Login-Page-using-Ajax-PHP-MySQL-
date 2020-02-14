@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, Helvetica;
+}
+
+.bdy {
+  background: #15B9F0;
+}
+
+form {
+  border: 3px solid whitesmoke;
+  background: white;
+}
+
+.form-group {
+  margin: 10px;
+}
+
+label {
+  margin-left: 170px;
+}
+
+input[type=text], input[type=password] {
+  width: 40%;
+  padding: 12px 20px;
+  margin-left: 20px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  background-color: #15B9F0;
+  color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 70px;
+  margin-left: 320px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  text-align: center;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.regbtn {
+  width: auto;
+  padding: 10px 18px;
+  width: 25%;
+  padding: 12px 20px;
+  margin-left: 0px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.regbtn a {
+  text-decoration: none;
+}
+
+.regbtn a:hover {
+  color: green;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.loginhead {
+  background: whitesmoke;
+  padding-left: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 50px;
+  margin-left: 200px;
+  margin-top: 30px;
+  width: 70%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.formlog {
+  margin-left: 200px;
+  margin-right: 142px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.psw a:hover {
+  color: red;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */

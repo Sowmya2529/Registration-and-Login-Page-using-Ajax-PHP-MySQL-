@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Login Page
+        </title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </head>
+ 
+<body class="bdy">
+
+    <div class="container">
+        <div class="loginhead">
+        <div class="form-group">
+      
+      Login Form</h2>
+    </div>
+  </div>
+    <form action="do_login.php" method="post" class="formlog" onsumbit="return do_login();">
+    
+      <div class="form-group" >
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" id="uname" required>
+      </div>
+      <div class="form-group">
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+      </div>  
+     
+        <button type="submit" class="logbtn">Login</button>
+      
+      <div class="form-group">
+        <div class="checkbox">
+        <label>
+          <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+      </div>
+      </div>
+      <div>
+        
+        Not Registered?<span class="regbtn"> <a href="register.php">Register</a></span>
+       
+        <span class="psw">Forgot <a href="#">password?</a></span>
+      </div>
+      
+     
+       
+     
+    </form>
+  </div>
+  
+    </body>
+    </html>
